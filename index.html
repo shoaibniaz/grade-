@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Check Grade</title>
+</head>
+
+<body>
+    <form onsubmit="calculate(event)">
+        What Was Total Marks:
+        <input type="number" placeholder="" id="value1">
+        <br>
+        What Was Your Score:
+        <input type="number" placeholder="" id="value2">
+        <br>
+        <button type="submit">Check</button>
+    </form>
+
+    <div id="resultDiv"> </div>
+    <div id="errorDiv"> </div>
+
+
+    <p>
+        Grade Distribution:
+    <ul>
+        <li>Passing is 60%</li>
+        <li>60% - 69% Grade B </li>
+        <li> 70% - 79 Grade A</li>
+        <li>80% _ 100% Grade A1</li>
+    </ul>
+    </p>
+
+
+</body>
+
+</html>
