@@ -1,0 +1,33 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+input {
+    border-radius: 2px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    color: rgb(46, 30, 9);
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left: 130px;
+    text-decoration: double;
+    font-size: larger;
+    color: rgb(27, 27, 68);
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgb(37, 101, 122);
+    border-radius: 5px;
+}
+
+ul {
+    font-size: xx-large;
+}
